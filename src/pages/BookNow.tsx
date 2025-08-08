@@ -240,13 +240,13 @@ export default function BookNow() {
                     Contact Us
                   </Button>
                   <a
-                    className="w-full py-3 rounded-xl text-base font-semibold shadow flex items-center justify-center"
-                    style={{ backgroundColor: '#25D366', color: '#fff', border: '2px solid #25D366', padding: '12px 24px', borderRadius: '8px', fontWeight: 'bold', boxShadow: '0 2px 8px rgba(0,0,0,0.10)', textAlign: 'center', textDecoration: 'none' }}
+                    className="w-full py-3 rounded-xl text-lg font-extrabold shadow flex items-center justify-center"
+                    style={{ backgroundColor: '#25D366', color: '#fff', border: '2px solid #25D366', padding: '12px 24px', borderRadius: '8px', fontWeight: '900', boxShadow: '0 2px 8px rgba(0,0,0,0.10)', textAlign: 'center', textDecoration: 'none', letterSpacing: '0.03em', textShadow: '0 1px 4px rgba(0,0,0,0.18)' }}
                     href="https://wa.me/919848231347"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <span style={{marginRight: '8px'}}>WhatsApp</span>
+                    <span style={{marginRight: '8px', fontSize: '1.25em', color: '#fff', textShadow: '0 1px 4px rgba(0,0,0,0.18)'}}>WhatsApp</span>
                   </a>
                 </div>
               </CardContent>
