@@ -157,6 +157,115 @@ export default function DoorToDoor() {
         </div>
       </section>
 
+      {/* Service Areas Section */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-foreground mb-4">Service Areas</h2>
+            <p className="text-muted-foreground max-w-3xl mx-auto">Our door-to-door pickup service is available in the following areas</p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[
+              {
+                region: "Metropolitan Cities",
+                description: "Same-day and express pickup available",
+                areas: ["Delhi NCR", "Mumbai", "Kolkata", "Chennai", "Bangalore", "Hyderabad", "Pune", "Ahmedabad"]
+              },
+              {
+                region: "Tier 2 Cities",
+                description: "Next-day pickup available",
+                areas: ["Jaipur", "Lucknow", "Kanpur", "Nagpur", "Indore", "Thane", "Bhopal", "Visakhapatnam"]
+              },
+              {
+                region: "Other Urban Areas",
+                description: "Standard pickup available",
+                areas: ["All district headquarters", "Major towns", "Industrial zones", "Commercial hubs"]
+              }
+            ].map((region, index) => (
+              <div key={index} className="bg-card border border-border rounded-xl p-6 shadow-lg">
+                <h3 className="text-xl font-semibold text-foreground mb-3">{region.region}</h3>
+                <p className="text-sm text-muted-foreground mb-4">{region.description}</p>
+                <div className="grid grid-cols-2 gap-2">
+                  {region.areas.map((area, areaIndex) => (
+                    <div key={areaIndex} className="flex items-center space-x-2">
+                      <span className="w-1.5 h-1.5 bg-primary rounded-full"></span>
+                      <span className="text-sm text-foreground">{area}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Pickup Process Details */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-secondary/30">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-foreground mb-4">Pickup Process Details</h2>
+            <p className="text-muted-foreground max-w-3xl mx-auto">What to expect when you schedule a door-to-door pickup</p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-card border border-border rounded-xl p-6 shadow-lg">
+              <h3 className="text-xl font-semibold text-foreground mb-4">Before Pickup</h3>
+              <ul className="space-y-3">
+                <li className="flex items-start space-x-3">
+                  <span className="w-6 h-6 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-bold text-xs mt-0.5">1</span>
+                  <div>
+                    <p className="text-foreground font-medium">Confirmation SMS & Email</p>
+                    <p className="text-sm text-muted-foreground">Receive booking confirmation with pickup details</p>
+                  </div>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <span className="w-6 h-6 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-bold text-xs mt-0.5">2</span>
+                  <div>
+                    <p className="text-foreground font-medium">Courier Assignment</p>
+                    <p className="text-sm text-muted-foreground">A courier is assigned to your pickup request</p>
+                  </div>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <span className="w-6 h-6 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-bold text-xs mt-0.5">3</span>
+                  <div>
+                    <p className="text-foreground font-medium">Reminder Notification</p>
+                    <p className="text-sm text-muted-foreground">Receive a reminder 30 minutes before scheduled pickup</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            
+            <div className="bg-card border border-border rounded-xl p-6 shadow-lg">
+              <h3 className="text-xl font-semibold text-foreground mb-4">During Pickup</h3>
+              <ul className="space-y-3">
+                <li className="flex items-start space-x-3">
+                  <span className="w-6 h-6 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-bold text-xs mt-0.5">1</span>
+                  <div>
+                    <p className="text-foreground font-medium">Courier Arrival</p>
+                    <p className="text-sm text-muted-foreground">Our uniformed courier arrives with ID card for verification</p>
+                  </div>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <span className="w-6 h-6 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-bold text-xs mt-0.5">2</span>
+                  <div>
+                    <p className="text-foreground font-medium">Package Inspection</p>
+                    <p className="text-sm text-muted-foreground">Quick check of package condition and dimensions</p>
+                  </div>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <span className="w-6 h-6 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-bold text-xs mt-0.5">3</span>
+                  <div>
+                    <p className="text-foreground font-medium">Digital Receipt</p>
+                    <p className="text-sm text-muted-foreground">Receive instant digital receipt with tracking information</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Business Solutions Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-secondary/30">
         <div className="max-w-7xl mx-auto">
@@ -169,23 +278,23 @@ export default function DoorToDoor() {
                 </p>
                 <ul className="space-y-2">
                   <li className="flex items-center space-x-2">
-                    <div className="w-2 h-2 bg-primary rounded-full"></div>
+                    <span className="w-2 h-2 bg-primary rounded-full"></span>
                     <span className="text-foreground">Scheduled daily, weekly, or monthly pickups</span>
                   </li>
                   <li className="flex items-center space-x-2">
-                    <div className="w-2 h-2 bg-primary rounded-full"></div>
+                    <span className="w-2 h-2 bg-primary rounded-full"></span>
                     <span className="text-foreground">Volume-based discounted rates</span>
                   </li>
                   <li className="flex items-center space-x-2">
-                    <div className="w-2 h-2 bg-primary rounded-full"></div>
+                    <span className="w-2 h-2 bg-primary rounded-full"></span>
                     <span className="text-foreground">Dedicated account manager</span>
                   </li>
                   <li className="flex items-center space-x-2">
-                    <div className="w-2 h-2 bg-primary rounded-full"></div>
+                    <span className="w-2 h-2 bg-primary rounded-full"></span>
                     <span className="text-foreground">Customized pickup windows to fit your business hours</span>
                   </li>
                   <li className="flex items-center space-x-2">
-                    <div className="w-2 h-2 bg-primary rounded-full"></div>
+                    <span className="w-2 h-2 bg-primary rounded-full"></span>
                     <span className="text-foreground">Bulk shipment handling capabilities</span>
                   </li>
                 </ul>

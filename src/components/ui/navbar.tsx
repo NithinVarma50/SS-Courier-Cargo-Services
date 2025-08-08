@@ -15,7 +15,7 @@ const services = [
   { name: 'International Courier', icon: Globe, href: '/services/international' },
   { name: 'Cargo Services', icon: Truck, href: '/services/cargo' },
   { name: 'Express Delivery', icon: Zap, href: '/services/express' },
-  { name: 'Pickup & Door-to-Door', icon: MapPin, href: '/services/pickup' },
+  { name: 'Door-to-Door Pickup', icon: MapPin, href: '/services/door-to-door' },
 ];
 
 export function Navbar() {
