@@ -215,7 +215,7 @@ export default function Home() {
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button asChild className="bg-primary hover:bg-primary-glow text-primary-foreground px-6 py-3 rounded-xl">
+                <Button asChild className="bg-black hover:bg-gray-800 text-white px-6 py-3 rounded-xl font-semibold">
                   <Link to="/contact">Contact Us</Link>
                 </Button>
                 <div className="flex items-center space-x-3 text-muted-foreground">
@@ -238,10 +238,10 @@ export default function Home() {
                   className="w-full h-96 object-cover rounded-2xl shadow-2xl"
                 />
                 {/* Experience Badge */}
-                <div className="absolute -bottom-8 -left-8 bg-accent text-white p-8 rounded-2xl shadow-2xl">
+                <div className="absolute -bottom-8 -left-8 bg-black text-white p-8 rounded-2xl shadow-2xl">
                   <div className="text-center">
-                    <div className="text-4xl font-bold mb-2">24+</div>
-                    <div className="text-white/90 text-sm font-medium">Years of Experience</div>
+                    <div className="text-4xl font-bold mb-2 text-white">24+</div>
+                    <div className="text-white text-sm font-medium">Years of Experience</div>
                   </div>
                 </div>
                 
@@ -302,10 +302,10 @@ export default function Home() {
             {features.map((feature, index) => (
               <div 
                 key={feature.title}
-                className="text-center card-feature hover-lift animate-slide-up"
+                className="text-center bg-white border border-gray-200 rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 animate-slide-up"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <div className="flex items-center justify-center w-20 h-20 bg-gradient-primary rounded-2xl mx-auto mb-6 shadow-lg">
+                <div className="flex items-center justify-center w-20 h-20 bg-black rounded-2xl mx-auto mb-6 shadow-lg">
                   <feature.icon className="w-10 h-10 text-white" />
                 </div>
                 <h3 className="text-2xl font-semibold text-foreground mb-4">{feature.title}</h3>
@@ -321,7 +321,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <div className="inline-flex items-center px-4 py-2 bg-accent/10 text-accent rounded-full mb-6 text-sm font-medium">
-              Our Services
+              <span className="text-primary font-semibold">Why Choose Us</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4 font-poppins">
               Our Core Services
@@ -352,7 +352,7 @@ export default function Home() {
                 Reliable shipping within India for documents, parcels, and packages. Fast, secure, and affordable delivery to all major cities and towns.
               </p>
               <Link to="/services/domestic" className="inline-flex items-center text-accent font-medium hover:text-accent-glow transition-colors">
-                <span className="text-primary font-medium hover:text-primary-glow">Read More</span> <ArrowRight className="ml-2 w-4 h-4 text-primary" />
+                <span className="text-black font-semibold hover:text-gray-800">Read More</span> <ArrowRight className="ml-2 w-4 h-4 text-black" />
               </Link>
             </div>
 
@@ -376,7 +376,7 @@ export default function Home() {
                 Global shipping to over 25 countries. Safe and timely delivery of parcels, documents, and cargo worldwide with real-time tracking.
               </p>
               <Link to="/services/international" className="inline-flex items-center text-accent font-medium hover:text-accent-glow transition-colors">
-                <span className="text-primary font-medium hover:text-primary-glow">Read More</span> <ArrowRight className="ml-2 w-4 h-4 text-primary" />
+                <span className="text-black font-semibold hover:text-gray-800">Read More</span> <ArrowRight className="ml-2 w-4 h-4 text-black" />
               </Link>
             </div>
 
@@ -400,7 +400,7 @@ export default function Home() {
                 Large shipments, furniture, vehicles, and urgent deliveries. 24-48 hour express service available for domestic and international destinations.
               </p>
               <Link to="/services/cargo" className="inline-flex items-center text-accent font-medium hover:text-accent-glow transition-colors">
-                <span className="text-primary font-medium hover:text-primary-glow">Read More</span> <ArrowRight className="ml-2 w-4 h-4 text-primary" />
+                <span className="text-black font-semibold hover:text-gray-800">Read More</span> <ArrowRight className="ml-2 w-4 h-4 text-black" />
               </Link>
             </div>
           </div>
