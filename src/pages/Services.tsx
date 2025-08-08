@@ -41,7 +41,7 @@ const services = [
     description: 'Convenient pickup and delivery service right at your doorstep.',
     features: ['Free Pickup', 'Doorstep Service', 'Flexible Timing', 'SMS Updates'],
     deliveryTime: 'As per Service',
-    link: '/services/pickup'
+    link: '/services/door-to-door'
   }
 ];
 

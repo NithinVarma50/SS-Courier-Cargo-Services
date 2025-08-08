@@ -14,6 +14,10 @@ import BookNow from "./pages/BookNow";
 import Track from "./pages/Track";
 import Contact from "./pages/Contact";
 import Domestic from "./pages/services/Domestic";
+import International from "./pages/services/International";
+import Cargo from "./pages/services/Cargo";
+import Express from "./pages/services/Express";
+import DoorToDoor from "./pages/services/DoorToDoor";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -32,6 +36,10 @@ const App = () => (
               <Route path="/about" element={<About />} />
               <Route path="/services" element={<Services />} />
               <Route path="/services/domestic" element={<Domestic />} />
+              <Route path="/services/international" element={<International />} />
+              <Route path="/services/cargo" element={<Cargo />} />
+              <Route path="/services/express" element={<Express />} />
+              <Route path="/services/door-to-door" element={<DoorToDoor />} />
               <Route path="/pricing" element={<Pricing />} />
               <Route path="/book" element={<BookNow />} />
               <Route path="/track" element={<Track />} />
