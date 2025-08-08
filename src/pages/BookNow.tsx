@@ -235,17 +235,29 @@ export default function BookNow() {
                     </div>
                   </div>
                 </div>
-                <Button
-                  className="w-full py-3 rounded-xl text-base font-semibold shadow"
-                  style={{ backgroundColor: '#0070f3', color: '#fff', border: '2px solid #0070f3', padding: '12px 24px', borderRadius: '8px', fontWeight: 'bold', boxShadow: '0 2px 8px rgba(0,0,0,0.10)' }}
-                >
-                  Contact Us
-                </Button>
+                <div className="flex flex-col gap-4 mt-4">
+                  <Button
+                    className="w-full py-3 rounded-xl text-base font-semibold shadow"
+                    style={{ backgroundColor: '#0070f3', color: '#fff', border: '2px solid #0070f3', padding: '12px 24px', borderRadius: '8px', fontWeight: 'bold', boxShadow: '0 2px 8px rgba(0,0,0,0.10)' }}
+                  >
+                    Contact Us
+                  </Button>
+                  <a
+                    className="w-full py-3 rounded-xl text-base font-semibold shadow flex items-center justify-center"
+                    style={{ backgroundColor: '#25D366', color: '#fff', border: '2px solid #25D366', padding: '12px 24px', borderRadius: '8px', fontWeight: 'bold', boxShadow: '0 2px 8px rgba(0,0,0,0.10)', textAlign: 'center', textDecoration: 'none' }}
+                    href="https://wa.me/919848231347"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span style={{marginRight: '8px'}}>WhatsApp</span>
+                  </a>
+                </div>
               </CardContent>
             </Card>
           </div>
         </div>
       </section>
+  );
     </div>
   );
 }
