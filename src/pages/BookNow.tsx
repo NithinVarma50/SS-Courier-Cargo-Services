@@ -250,7 +250,7 @@ export default function BookNow() {
                 </div>
                 <Button
                   className="w-full py-3 rounded-xl text-base font-semibold shadow"
-                  style={{ backgroundColor: '#0057b8', color: '#fff', border: '2px solid #fff', padding: '10px 20px', borderRadius: '5px', fontWeight: 'bold' }}
+                  style={{ backgroundColor: '#0070f3', color: '#fff', border: '2px solid #0070f3', padding: '12px 24px', borderRadius: '8px', fontWeight: 'bold', boxShadow: '0 2px 8px rgba(0,0,0,0.10)' }}
                 >
                   Contact Us
                 </Button>
