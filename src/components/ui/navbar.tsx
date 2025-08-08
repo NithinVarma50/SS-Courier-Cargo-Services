@@ -24,10 +24,13 @@ export function Navbar() {
   return (
     <nav className="bg-background/95 backdrop-blur-sm border-b border-border sticky top-0 z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-20">
           <Link to="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-            <img src={logo} alt="SS Courier & Cargo Services logo" className="h-8 w-auto" />
-            <span className="sr-only">SS Courier & Cargo Services</span>
+            <img src={logo} alt="SS Courier & Cargo Services logo" className="h-16 w-auto" />
+            <div className="flex flex-col">
+              <span className="font-bold text-lg text-primary">SS Courier</span>
+              <span className="text-sm text-muted-foreground">& Cargo Services</span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
