@@ -126,10 +126,23 @@ export function Footer() {
                 Call
               </a>
               <a 
-                href="https://wa.me/919848231347" 
-                target="_blank" 
+                href="https://wa.me/919848231347"
+                target="_blank"
                 rel="noopener noreferrer"
-                className="flex-1 bg-accent hover:bg-accent-glow text-center py-2 px-3 rounded-lg text-sm font-medium transition-colors"
+                style={{
+                  backgroundColor: '#25D366',
+                  color: '#fff',
+                  fontWeight: 'bold',
+                  borderRadius: '8px',
+                  padding: '8px 18px',
+                  boxShadow: '0 2px 8px rgba(0,0,0,0.10)',
+                  textAlign: 'center',
+                  textDecoration: 'none',
+                  fontSize: '1em',
+                  letterSpacing: '0.03em',
+                  textShadow: '0 1px 4px rgba(0,0,0,0.18)'
+                }}
+                className="flex-1 transition-colors"
               >
                 WhatsApp
               </a>
