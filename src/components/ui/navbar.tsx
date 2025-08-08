@@ -26,16 +26,8 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <Link to="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-<<<<<<< HEAD
-            <img src={logo} alt="SS Courier & Cargo Services logo" className="h-16 w-auto" />
-            <div className="flex flex-col">
-              <span className="font-bold text-lg text-primary">SS Courier</span>
-              <span className="text-sm text-muted-foreground">& Cargo Services</span>
-            </div>
-=======
-            <img src={ssLogoSince2001} alt="SS Courier & Cargo Services logo since 2001" className="h-12 w-auto" />
+            <img src={ssLogoSince2001} alt="SS Courier & Cargo Services logo" className="h-16 w-auto" />
             <span className="sr-only">SS Courier & Cargo Services</span>
->>>>>>> f23ddfaed3aa7aec075a5ae6b3e3df9018856615
           </Link>
 
           {/* Desktop Navigation */}
