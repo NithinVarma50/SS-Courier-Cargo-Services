@@ -52,6 +52,10 @@ export default function Contact() {
         <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
           Questions about a shipment? Need a price quote? Want to book a pickup? Our team is ready to help you 7 days a week.
         </p>
+        <div className="mt-6 p-4 bg-primary/10 rounded-lg max-w-2xl mx-auto border-l-4 border-primary">
+          <p className="italic text-lg">"Delivering excellence is not just our promise, it's our everyday commitment to each package we handle."</p>
+          <p className="text-right mt-2 font-medium text-primary">- SS Courier & Cargo Services</p>
+        </div>
       </section>
 
       {/* Main Content */}
