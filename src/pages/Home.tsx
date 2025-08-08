@@ -163,7 +163,7 @@ export default function Home() {
               <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6 font-poppins">
                 We'll keep your items
                 <br />
-                <span className="text-accent">damage-free</span>
+                <span className="text-primary">damage-free</span>
               </h2>
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
                 SS Courier & Cargo Services ensures your shipments are delivered safely and securely, with careful handling and reliable service. We offer domestic and international courier, cargo, express delivery, package tracking, and pickup services for personal and business needs. Experience fast, affordable, and damage-free transport every time.
@@ -215,7 +215,7 @@ export default function Home() {
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button asChild className="bg-primary hover:bg-primary-glow text-white px-6 py-3 rounded-xl">
+                <Button asChild className="bg-primary hover:bg-primary-glow text-primary-foreground px-6 py-3 rounded-xl">
                   <Link to="/contact">Contact Us</Link>
                 </Button>
                 <div className="flex items-center space-x-3 text-muted-foreground">
@@ -352,7 +352,7 @@ export default function Home() {
                 Reliable shipping within India for documents, parcels, and packages. Fast, secure, and affordable delivery to all major cities and towns.
               </p>
               <Link to="/services/domestic" className="inline-flex items-center text-accent font-medium hover:text-accent-glow transition-colors">
-                Read More <ArrowRight className="ml-2 w-4 h-4" />
+                <span className="text-primary font-medium hover:text-primary-glow">Read More</span> <ArrowRight className="ml-2 w-4 h-4 text-primary" />
               </Link>
             </div>
 
@@ -376,7 +376,7 @@ export default function Home() {
                 Global shipping to over 25 countries. Safe and timely delivery of parcels, documents, and cargo worldwide with real-time tracking.
               </p>
               <Link to="/services/international" className="inline-flex items-center text-accent font-medium hover:text-accent-glow transition-colors">
-                Read More <ArrowRight className="ml-2 w-4 h-4" />
+                <span className="text-primary font-medium hover:text-primary-glow">Read More</span> <ArrowRight className="ml-2 w-4 h-4 text-primary" />
               </Link>
             </div>
 
@@ -400,7 +400,7 @@ export default function Home() {
                 Large shipments, furniture, vehicles, and urgent deliveries. 24-48 hour express service available for domestic and international destinations.
               </p>
               <Link to="/services/cargo" className="inline-flex items-center text-accent font-medium hover:text-accent-glow transition-colors">
-                Read More <ArrowRight className="ml-2 w-4 h-4" />
+                <span className="text-primary font-medium hover:text-primary-glow">Read More</span> <ArrowRight className="ml-2 w-4 h-4 text-primary" />
               </Link>
             </div>
           </div>
