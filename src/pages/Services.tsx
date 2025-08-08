@@ -106,19 +106,28 @@ export default function Services() {
                         </div>
                       ))}
                     </div>
-                    
                     <div className="flex items-center justify-between">
                       <div>
                         <div className="text-sm text-muted-foreground">Delivery Time</div>
                         <div className="font-semibold text-primary">{service.deliveryTime}</div>
                       </div>
-                      
                       <Button asChild className="btn-accent">
                         <Link to={service.link}>
                           Learn More <ArrowRight className="ml-2 w-4 h-4" />
                         </Link>
                       </Button>
                     </div>
+                    {/* Add Book Domestic Shipment and Track Your Package buttons for Domestic Courier only */}
+                    {service.title === 'Domestic Courier' && (
+                      <div className="mt-6 flex flex-col sm:flex-row gap-4">
+                        <Button asChild size="lg" style={{backgroundColor: '#007bff', color: '#fff', fontWeight: 'bold', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.10)'}}>
+                          <Link to="/book">Book Domestic Shipment</Link>
+                        </Button>
+                        <Button asChild size="lg" variant="outline" style={{borderColor: '#007bff', color: '#007bff', fontWeight: 'bold', borderRadius: '8px'}}>
+                          <Link to="/track">Track Your Package</Link>
+                        </Button>
+                      </div>
+                    )}
                   </div>
                 </div>
               </div>
