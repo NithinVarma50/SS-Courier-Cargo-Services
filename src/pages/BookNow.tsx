@@ -51,9 +51,6 @@ export default function BookNow() {
             </Button>
           </div>
         </div>
-        <div className="absolute inset-x-0 bottom-0 flex justify-center pointer-events-none select-none">
-          <img src="/src/assets/hero-courier.jpg" alt="Courier Hero" className="w-full max-w-2xl rounded-3xl shadow-xl opacity-90" style={{objectFit: 'cover', height: '320px'}} />
-        </div>
       </section>
       <section className="py-20 px-4 sm:px-8 lg:px-0">
         <div className="max-w-6xl mx-auto">
