@@ -220,7 +220,7 @@ export default function BookNow() {
                     <Phone className="w-5 h-5 text-primary" />
                     <div>
                       <p className="font-medium">Call Us</p>
-                      <a href="tel:+919848231347" className="text-sm text-primary font-semibold hover:underline">+91 9848231347</a><br />
+                          <a href="tel:+919848231347" className="text-sm text-primary font-semibold hover:underline">+91 98482 31347</a><br />
                       <a href="tel:+919885561347" className="text-sm text-primary font-semibold hover:underline">+91 9885561347</a><br />
                       <a href="tel:+9104042101419" className="text-sm text-primary font-semibold hover:underline">+91 040 42101419</a>
                     </div>
