@@ -254,34 +254,6 @@ export default function Track() {
           </div>
         </section>
       )}
-
-      {/* Sample Tracking Numbers */}
-      <section className="py-12 bg-secondary/30">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h3 className="text-2xl font-semibold text-foreground mb-4">
-            Don't have a tracking number handy?
-          </h3>
-          <p className="text-muted-foreground mb-6">
-            Try these sample tracking numbers to see how our tracking system works:
-          </p>
-          <div className="flex flex-wrap justify-center gap-3">
-            <Button
-              variant="outline"
-              onClick={() => setTrackingNumber('SS001234567')}
-              className="font-mono"
-            >
-              SS001234567 (In Transit)
-            </Button>
-            <Button
-              variant="outline"
-              onClick={() => setTrackingNumber('SS001234568')}
-              className="font-mono"
-            >
-              SS001234568 (Delivered)
-            </Button>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }
