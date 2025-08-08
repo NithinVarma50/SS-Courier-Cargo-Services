@@ -99,7 +99,7 @@ export default function DoorToDoor() {
                     <span className="font-medium">Pickup:</span> {service.time}
                   </p>
                   <p className="text-sm text-muted-foreground">
-                    <span className="font-medium">Fee:</span> <span className="text-primary font-semibold">{service.price}</span>
+                    <span className="text-primary font-semibold">Contact us for pricing</span>
                   </p>
                   <p className="text-sm text-muted-foreground">
                     <span className="font-medium">Time Window:</span> {service.window}

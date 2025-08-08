@@ -99,7 +99,7 @@ export default function International() {
                     <span className="font-medium">Delivery:</span> {service.time}
                   </p>
                   <p className="text-sm text-muted-foreground">
-                    <span className="font-medium">Price:</span> <span className="text-primary font-semibold">{service.price}</span>
+                    <span className="text-primary font-semibold">Contact us for pricing</span>
                   </p>
                   <p className="text-sm text-muted-foreground">
                     <span className="font-medium">Coverage:</span> {service.coverage}

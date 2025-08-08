@@ -68,7 +68,7 @@ export default function Pricing() {
             Transparent Pricing
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            No hidden fees. Competitive rates for all your shipping needs.
+            For personalized and competitive pricing, please contact our team.
           </p>
         </div>
       </section>
@@ -97,8 +97,8 @@ export default function Pricing() {
                   <h3 className="text-2xl font-bold text-foreground mb-2">{plan.name}</h3>
                   <p className="text-muted-foreground mb-4">{plan.description}</p>
                   <div className="flex items-baseline justify-center">
-                    <span className="text-4xl font-bold text-primary">{plan.price}</span>
-                    <span className="text-muted-foreground ml-2">{plan.unit}</span>
+                    <span className="text-2xl font-bold text-primary">Contact us</span>
+                    
                   </div>
                 </div>
 
@@ -142,7 +142,7 @@ export default function Pricing() {
                 }`}
               >
                 <span className="text-foreground font-medium">{item.service}</span>
-                <span className="text-primary font-semibold">{item.price}</span>
+                <span className="text-primary font-semibold">Contact us</span>
               </div>
             ))}
           </div>
