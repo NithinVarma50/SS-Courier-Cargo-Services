@@ -7,6 +7,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Checkbox } from '@/components/ui/checkbox';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Package, MapPin, Phone, Mail, Calculator } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 export default function BookNow() {
   const [serviceType, setServiceType] = useState('');
@@ -57,64 +58,50 @@ export default function BookNow() {
       <section className="py-20 px-4 sm:px-8 lg:px-0">
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-3 gap-16">
-            {/* Shipment Details Card */}
+            {/* Domestic Courier Card */}
             <Card className="bg-white shadow-sm rounded-3xl border border-gray-100">
               <CardHeader className="pb-2">
                 <CardTitle className="flex items-center gap-3 text-3xl font-semibold text-gray-900">
-                  <Package className="w-7 h-7 text-gray-400" /> Shipment Details
+                  Domestic Courier <span className="uppercase text-xs font-bold text-blue-600">DOMESTIC</span>
                 </CardTitle>
               </CardHeader>
-              <CardContent className="space-y-8">
-                {/* Add shipment details here if needed */}
+              <CardContent className="space-y-4">
+                <h3 className="text-lg font-semibold text-gray-900">Domestic Courier Services</h3>
+                <p className="text-gray-600">Reliable shipping within India for documents, parcels, and packages. Fast, secure, and affordable delivery to all major cities and towns.</p>
+                <Button variant="outline" className="flex items-center gap-2 text-blue-700 border-blue-700 hover:bg-blue-50">
+                  Read More <ArrowRight className="w-4 h-4" />
+                </Button>
               </CardContent>
             </Card>
-            {/* Booking Form Card */}
-            <Card className="bg-white shadow-sm rounded-3xl border border-gray-100 col-span-2">
+            {/* International Courier Card */}
+            <Card className="bg-white shadow-sm rounded-3xl border border-gray-100">
               <CardHeader className="pb-2">
-                <CardTitle className="text-lg font-semibold text-gray-900 flex items-center gap-2">
-                  <Calculator className="w-5 h-5 text-gray-400" /> Cost Estimator
+                <CardTitle className="flex items-center gap-3 text-3xl font-semibold text-gray-900">
+                  International Courier <span className="uppercase text-xs font-bold text-green-600">INTERNATIONAL</span>
                 </CardTitle>
               </CardHeader>
-              <CardContent>
-                {estimatedCost > 0 ? (
-                  <div className="text-center p-8 bg-gray-50 rounded-2xl">
-                    <p className="text-sm text-gray-500 mb-2">Estimated Cost</p>
-                    <p className="text-4xl font-bold text-gray-900 mb-1">₹{estimatedCost}</p>
-                    <p className="text-xs text-gray-400">*Excluding additional services</p>
-                  </div>
-                ) : (
-                  <p className="text-gray-400 text-center py-8">
-                    Select service type and enter weight to calculate estimated cost
-                  </p>
-                )}
-                <div className="grid md:grid-cols-2 gap-4 mt-8">
-                  <div className="space-y-2">
-                    <Label htmlFor="service-type">Service Type</Label>
-                    <Select value={serviceType} onValueChange={setServiceType}>
-                      <SelectTrigger>
-                        <SelectValue placeholder="Select service type" />
-                      </SelectTrigger>
-                      <SelectContent>
-                        <SelectItem value="domestic-express">Domestic Express</SelectItem>
-                        <SelectItem value="international-express">International Express</SelectItem>
-                        <SelectItem value="pickup">Pickup & Door-to-Door</SelectItem>
-                      </SelectContent>
-                    </Select>
-                  </div>
-                  <div className="space-y-2">
-                    <Label htmlFor="weight">Weight (kg)</Label>
-                    <Input
-                      id="weight"
-                      type="number"
-                      value={weight}
-                      onChange={e => setWeight(e.target.value)}
-                      placeholder="Enter weight in kg"
-                      min={0}
-                      step={0.1}
-                      onBlur={calculateCost}
-                    />
-                  </div>
-                </div>
+              <CardContent className="space-y-4">
+                <h3 className="text-lg font-semibold text-gray-900">International Courier Services</h3>
+                <p className="text-gray-600">Global shipping to over 25 countries. Safe and timely delivery of parcels, documents, and cargo worldwide with real-time tracking.</p>
+                <Button variant="outline" className="flex items-center gap-2 text-green-700 border-green-700 hover:bg-green-50">
+                  Read More <ArrowRight className="w-4 h-4" />
+                </Button>
+              </CardContent>
+            </Card>
+
+            {/* Cargo & Express Delivery Card */}
+            <Card className="bg-white shadow-sm rounded-3xl border border-gray-100">
+              <CardHeader className="pb-2">
+                <CardTitle className="flex items-center gap-3 text-3xl font-semibold text-gray-900">
+                  Cargo & Express <span className="uppercase text-xs font-bold text-purple-600">CARGO & EXPRESS</span>
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <h3 className="text-lg font-semibold text-gray-900">Cargo & Express Delivery</h3>
+                <p className="text-gray-600">Fast and secure delivery for bulk shipments and urgent packages. Specialized handling for express and cargo needs.</p>
+                <Button variant="outline" className="flex items-center gap-2 text-purple-700 border-purple-700 hover:bg-purple-50">
+                  Read More <ArrowRight className="w-4 h-4" />
+                </Button>
               </CardContent>
             </Card>
           </div>
