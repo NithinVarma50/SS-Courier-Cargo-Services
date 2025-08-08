@@ -222,8 +222,8 @@ export default function Home() {
                   <div className="flex items-center space-x-1">
                     <span className="text-sm">Have Questions?</span>
                   </div>
-                  <a href="tel:+919876543210" className="font-semibold text-foreground hover:text-primary">
-                    Call: +91 98765 43210
+                  <a href="tel:+919848231347" className="font-semibold text-foreground hover:text-primary">
+                    Call: +91 9848231347
                   </a>
                 </div>
               </div>
@@ -459,7 +459,7 @@ export default function Home() {
               </Link>
             </Button>
             <Button asChild size="lg" variant="outline" className="border-white/30 text-white hover:bg-white/10 text-lg px-8 py-4">
-              <Link to="/contact">Contact Us</Link>
+              <Link to="/contact" style={{ backgroundColor: '#000', color: '#fff', borderRadius: '8px', padding: '12px 24px', fontWeight: 'bold', display: 'inline-block' }}>Contact Us</Link>
             </Button>
           </div>
         </div>
