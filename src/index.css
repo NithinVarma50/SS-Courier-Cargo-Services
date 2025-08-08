@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Custom button classes for better visibility */
+@layer components {
+  .btn-accent {
+    @apply bg-primary/10 text-foreground font-bold hover:bg-primary/20 shadow;
+  }
+  .btn-secondary {
+    @apply border border-primary text-primary font-bold hover:bg-primary/10;
+  }
+}
+
 /* SS Courier & Cargo Services Design System
 Professional logistics design with trustworthy blues and energetic oranges
 All colors MUST be HSL.
