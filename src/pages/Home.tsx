@@ -41,7 +41,7 @@ const services = [
 const features = [
   {
     icon: Clock,
-    title: '22+ Years Experience',
+    title: '24+ Years Experience',
     description: 'Serving Hyderabad and beyond since 2001.'
   },
   {
@@ -278,7 +278,7 @@ export default function Home() {
             <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
                 <div className="animate-slide-up">
-                  <div className="text-4xl md:text-5xl font-bold text-accent mb-2">22+</div>
+                  <div className="text-4xl md:text-5xl font-bold text-accent mb-2">24+</div>
                   <div className="text-white/80">Years of Experience</div>
                 </div>
                 <div className="animate-slide-up" style={{ animationDelay: '0.1s' }}>

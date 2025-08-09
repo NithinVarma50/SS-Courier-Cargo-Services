@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export default function About() {
   const achievements = [
-    { icon: Award, title: "22+ Years Experience", desc: "Serving since March 2001" },
+    { icon: Award, title: "24+ Years Experience", desc: "Serving since March 2001" },
     { icon: Users, title: "Customer Satisfaction", desc: "Core criteria of our service" },
     { icon: Globe, title: "Nationwide Network", desc: "Covering major cities across India" },
     { icon: CheckCircle, title: "Trusted Service", desc: "Reliable and professional delivery" }
@@ -43,7 +43,7 @@ export default function About() {
               <h2 className="text-3xl font-bold text-foreground mb-6">Our Journey</h2>
               <div className="prose prose-lg text-muted-foreground space-y-4">
                 <p>
-                  SS Couriers & Cargo Services was launched about twenty-two (22) years back in March 2001 (SS Enterprises) to serve the clients of a city that is emerging as a major city in terms of rapid industrialization, IT growth, international outlook, and culture.
+                  SS Couriers & Cargo Services was launched about twenty-four (24) years back in March 2001 (SS Enterprises) to serve the clients of a city that is emerging as a major city in terms of rapid industrialization, IT growth, international outlook, and culture.
                 </p>
                 <p>
                   In this growing world of business, effective communication has become a vital role, for which every company is trying to get an edge over the other. This mass mailing has been a very effective mode of expressing the companies' activities.
