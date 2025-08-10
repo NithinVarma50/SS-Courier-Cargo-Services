@@ -55,15 +55,6 @@ The goal of this project was to create a **modern, responsive, and user-friendly
 
 ---
 
-## 🛠 Tech Stack
-
-* **Frontend Framework:** React / Next.js *(depending on your implementation)*
-* **Styling:** Tailwind CSS
-* **Animations:** Framer Motion (if used)
-* **Forms & Validation:** HTML5 + Client-side validation
-* **Maps:** Google Maps Embed
-
----
 
 ## 🚀 Deployment
 
