@@ -218,6 +218,17 @@ export default function Home() {
                 onError={(e) => { (e.currentTarget as HTMLImageElement).src = ssLogo; }}
               />
             </div>
+            <div className="flex items-center justify-center h-16 sm:h-20 rounded-lg bg-white border overflow-hidden p-2 sm:p-3">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8zQYCgdWMruF8OK5URBkADp1P_c6-GBnrRg&s"
+                alt="DPD logo"
+                className="max-h-12 sm:max-h-16 w-auto max-w-full object-contain"
+                loading="lazy"
+                referrerPolicy="no-referrer"
+                crossOrigin="anonymous"
+                onError={(e) => { (e.currentTarget as HTMLImageElement).src = ssLogo; }}
+              />
+            </div>
           </div>
         </div>
       </section>
