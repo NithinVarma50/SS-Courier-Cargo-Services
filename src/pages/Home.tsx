@@ -16,7 +16,7 @@ const services = [
   {
     icon: Globe,
     title: 'International Courier Services',
-    description: 'Global shipping capabilities to over 25 countries.',
+    description: 'Export shipping from India to over 25 countries. No import services.',
     link: '/services/international'
   },
   {
@@ -118,7 +118,7 @@ export default function Home() {
               Fast, reliable logistics built around you
             </h1>
             <p className="mt-6 text-lg text-muted-foreground max-w-xl">
-              Domestic and international courier & cargo. 24–48h express delivery, secure handling, and door‑to‑door pickup across India and abroad.
+              Domestic and international courier & cargo (exports from India only). 24–48h express delivery, secure handling, and door‑to‑door pickup across India and abroad.
             </p>
             {/* Quick quote panel (inspired by reference) */}
             <form className="mt-8 rounded-2xl border border-border bg-card shadow-card p-2 md:p-3">
@@ -216,7 +216,7 @@ export default function Home() {
                   <CheckCircle className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">International Courier Services</h4>
-                    <p className="text-sm text-muted-foreground">Global shipping capabilities</p>
+                    <p className="text-sm text-muted-foreground">Exports from India only (no imports)</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
@@ -408,7 +408,7 @@ export default function Home() {
               </div>
               <h3 className="text-2xl font-bold text-foreground mb-3">International Courier Services</h3>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Global shipping to over 25 countries. Safe and timely delivery of parcels, documents, and cargo worldwide with real-time tracking.
+                Export shipping from India to 25+ countries. Safe and timely delivery of parcels, documents, and cargo with real-time tracking. No import services.
               </p>
               <Link to="/services/international" className="inline-flex items-center text-accent font-medium hover:text-accent-glow transition-colors">
                 <span className="text-black font-semibold hover:text-gray-800">Read More</span> <ArrowRight className="ml-2 w-4 h-4 text-black" />

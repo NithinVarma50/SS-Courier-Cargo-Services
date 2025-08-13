@@ -14,8 +14,8 @@ const services = [
   {
     icon: Globe,
     title: 'International Courier',
-    description: 'Global shipping solutions with customs clearance support and worldwide delivery.',
-    features: ['220+ Countries', 'Customs Clearance', 'Door-to-Door', 'Documentation Support'],
+    description: 'Export shipping from India with customs clearance support and global delivery. No import services.',
+    features: ['220+ Countries', 'Export Customs Clearance', 'Door-to-Door', 'Documentation Support'],
     deliveryTime: '3-7 Business Days',
     link: '/services/international'
   },

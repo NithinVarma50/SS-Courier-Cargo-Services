@@ -22,9 +22,9 @@ export default function Pricing() {
       name: "International Standard",
       price: "₹800",
       unit: "per 500g",
-      description: "Reliable worldwide shipping",
+      description: "Reliable export shipping from India (no imports)",
       features: [
-        "7-10 days delivery worldwide",
+        "7-10 days export delivery from India",
         "Real-time tracking",
         "Insurance up to ₹25,000",
         "Customs clearance support",

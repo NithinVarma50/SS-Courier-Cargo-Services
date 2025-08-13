@@ -7,7 +7,7 @@ export default function International() {
     {
       icon: Globe,
       title: "Global Coverage",
-      description: "Delivery to over 220 countries and territories worldwide"
+      description: "Export delivery from India to 220+ countries and territories"
     },
     {
       icon: Shield,
@@ -62,7 +62,7 @@ export default function International() {
             International Courier Services
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Reliable global shipping solutions with customs clearance support and worldwide delivery to over 220 countries.
+            Reliable international export shipping from India with customs clearance support and delivery to 220+ countries. No import services.
           </p>
         </div>
       </section>
@@ -139,7 +139,7 @@ export default function International() {
                   </li>
                   <li className="flex items-center space-x-2">
                     <div className="w-2 h-2 bg-primary rounded-full"></div>
-                    <span className="text-foreground">Export/Import documentation</span>
+                    <span className="text-foreground">Export documentation</span>
                   </li>
                 </ul>
               </div>
@@ -171,7 +171,7 @@ export default function International() {
             Ready to Ship Internationally?
           </h2>
           <p className="text-muted-foreground mb-8 text-lg">
-            Get your packages delivered worldwide with our reliable international courier service
+            Export shipments from India delivered worldwide with our reliable international courier service (no imports)
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="btn-accent">

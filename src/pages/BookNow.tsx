@@ -79,7 +79,7 @@ export default function BookNow() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <h3 className="text-lg font-semibold text-gray-900">International Courier Services</h3>
-                <p className="text-gray-600">Global shipping to over 25 countries. Safe and timely delivery of parcels, documents, and cargo worldwide with real-time tracking.</p>
+                <p className="text-gray-600">Export shipping from India to 25+ countries. Safe and timely delivery of parcels, documents, and cargo with real-time tracking. No import services.</p>
                 <Button variant="outline" className="flex items-center gap-2 text-green-700 border-green-700 hover:bg-green-50">
                   Read More <ArrowRight className="w-4 h-4" />
                 </Button>
