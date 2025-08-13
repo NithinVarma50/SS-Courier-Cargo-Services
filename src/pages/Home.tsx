@@ -165,7 +165,12 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 items-center">
             <div className="flex items-center justify-center h-16 rounded-lg bg-white border">
-              <span className="text-sm font-medium text-muted-foreground">DTDC</span>
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/DTDC_Express_Logo.png/512px-DTDC_Express_Logo.png"
+                alt="DTDC logo"
+                className="h-10 object-contain"
+                loading="lazy"
+              />
             </div>
             <div className="flex items-center justify-center h-16 rounded-lg bg-white border">
               <span className="text-sm font-medium text-muted-foreground">FedEx</span>
