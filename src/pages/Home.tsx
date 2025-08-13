@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Case } from '@/components/ui/cases-with-infinite-scroll';
 import { Input } from '@/components/ui/input';
 import heroImage from '@/assets/hero-courier.jpg';
+import ssLogo from '@/assets/ss-logo.png';
 
 
 const services = [
@@ -170,38 +171,43 @@ export default function Home() {
                 alt="DTDC logo"
                 className="w-40 sm:w-56 md:w-64 h-auto object-contain"
                 loading="lazy"
+                onError={(e) => { (e.currentTarget as HTMLImageElement).src = ssLogo; }}
               />
             </div>
             <div className="flex items-center justify-center h-20 md:h-24 rounded-lg bg-white border">
               <img
-                src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cleanpng.com%2Ffree%2Ffedex-logo.html&psig=AOvVaw0Ca4d_IAlUfyy-di1c3y4g&ust=1755191097933000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLiSt7-iiI8DFQAAAAAdAAAAABAT"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/FedEx_Express.svg/512px-FedEx_Express.svg.png"
                 alt="FedEx logo"
                 className="w-40 sm:w-56 md:w-64 h-auto object-contain"
                 loading="lazy"
+                onError={(e) => { (e.currentTarget as HTMLImageElement).src = ssLogo; }}
               />
             </div>
             <div className="flex items-center justify-center h-20 md:h-24 rounded-lg bg-white border">
               <img
-                src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fsellonboard.com%2Fshipment%2Fdelhivery%2F&psig=AOvVaw2i_MjqPs3inbgARJcr6BTW&ust=1755191173968000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCIiP--KiiI8DFQAAAAAdAAAAABAK"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Delhivery_Logo.svg/512px-Delhivery_Logo.svg.png"
                 alt="Delhivery logo"
                 className="w-40 sm:w-56 md:w-64 h-auto object-contain"
                 loading="lazy"
+                onError={(e) => { (e.currentTarget as HTMLImageElement).src = ssLogo; }}
               />
             </div>
             <div className="flex items-center justify-center h-20 md:h-24 rounded-lg bg-white border">
               <img
-                src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fcargo-service-logo&psig=AOvVaw32TqAwwRjQ7c0uHTo03sEP&ust=1755191217374000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPia5YmjiI8DFQAAAAAdAAAAABA2"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Cargo_logo.svg/512px-Cargo_logo.svg.png"
                 alt="Cargo Service logo"
                 className="w-40 sm:w-56 md:w-64 h-auto object-contain"
                 loading="lazy"
+                onError={(e) => { (e.currentTarget as HTMLImageElement).src = ssLogo; }}
               />
             </div>
             <div className="flex items-center justify-center h-20 md:h-24 rounded-lg bg-white border">
               <img
-                src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngegg.com%2Fen%2Fsearch%3Fq%3Dups%2BLogo&psig=AOvVaw33DjNy9s1cmh9AjbUFuPks&ust=1755191307797000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLjnv6KjiI8DFQAAAAAdAAAAABAE"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/UPS_Logo_Shield_2017.svg/512px-UPS_Logo_Shield_2017.svg.png"
                 alt="UPS logo"
                 className="w-40 sm:w-56 md:w-64 h-auto object-contain"
                 loading="lazy"
+                onError={(e) => { (e.currentTarget as HTMLImageElement).src = ssLogo; }}
               />
             </div>
           </div>
