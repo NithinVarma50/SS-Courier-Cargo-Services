@@ -209,7 +209,7 @@ export default function Home() {
             </div>
             <div className="flex items-center justify-center h-16 sm:h-20 rounded-lg bg-white border overflow-hidden p-2 sm:p-3">
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/UPS_Logo_Shield_2017.svg/512px-UPS_Logo_Shield_2017.svg.png"
+                src="https://logos-world.net/wp-content/uploads/2020/12/UPS-Logo.png"
                 alt="UPS logo"
                 className="max-h-12 sm:max-h-16 w-auto max-w-full object-contain"
                 loading="lazy"
