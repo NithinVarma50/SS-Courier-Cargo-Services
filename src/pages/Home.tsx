@@ -108,6 +108,11 @@ export default function Home() {
           {/* Left Content */}
           <div className="lg:col-span-7">
             <p className="text-sm text-muted-foreground mb-4">Hyderabad • Since 2001</p>
+            <div className="mb-4 space-y-0.5">
+              <div className="text-2xl font-semibold text-foreground">SS Courier & Cargo Services</div>
+              <div className="text-sm text-muted-foreground">Domestic & International</div>
+              <div className="text-sm text-muted-foreground">We Deliver Your Needs</div>
+            </div>
             <h1 className="text-5xl md:text-6xl font-semibold tracking-tight text-foreground">
               Fast, reliable logistics built around you
             </h1>

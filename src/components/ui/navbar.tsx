@@ -27,7 +27,12 @@ export function Navbar() {
         <div className="flex justify-between items-center h-20">
           <Link to="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
             <img src={ssLogoSince2001} alt="SS Courier & Cargo Services logo" className="h-16 w-auto" />
-            <span className="sr-only">SS Courier & Cargo Services</span>
+            <div className="flex flex-col leading-tight">
+              <span className="font-medium text-foreground text-sm sm:text-base">SS Courier & Cargo Services</span>
+              <span className="text-[11px] sm:text-xs text-muted-foreground">Domestic & International</span>
+              <span className="text-[11px] sm:text-xs text-muted-foreground">We Deliver Your Needs</span>
+            </div>
+            <span className="sr-only">SS Courier & Cargo Services — Domestic & International — We Deliver Your Needs</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -90,7 +95,16 @@ export function Navbar() {
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div className="md:hidden pb-4 space-y-2 animate-slide-up">
+  <div className="md:hidden pb-4 space-y-3 animate-slide-up">
+            {/* Mobile Brand Header */}
+            <div className="px-3 py-3 rounded-lg bg-muted/50 border border-border flex items-center gap-3">
+              <img src={ssLogoSince2001} alt="SS Courier & Cargo Services logo" className="h-10 w-auto" />
+              <div className="flex flex-col leading-tight">
+                <span className="font-medium text-foreground text-sm">SS Courier & Cargo Services</span>
+                <span className="text-xs text-muted-foreground">Domestic & International</span>
+                <span className="text-xs text-muted-foreground">We Deliver Your Needs</span>
+              </div>
+            </div>
             <Link 
               to="/" 
               className="block px-3 py-2 text-foreground hover:text-primary hover:bg-secondary rounded-md transition-colors"
