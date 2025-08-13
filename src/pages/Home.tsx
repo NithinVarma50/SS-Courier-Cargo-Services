@@ -172,17 +172,37 @@ export default function Home() {
                 loading="lazy"
               />
             </div>
-            <div className="flex items-center justify-center h-16 rounded-lg bg-white border">
-              <span className="text-sm font-medium text-muted-foreground">FedEx</span>
+            <div className="flex items-center justify-center h-20 md:h-24 rounded-lg bg-white border">
+              <img
+                src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cleanpng.com%2Ffree%2Ffedex-logo.html&psig=AOvVaw0Ca4d_IAlUfyy-di1c3y4g&ust=1755191097933000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLiSt7-iiI8DFQAAAAAdAAAAABAT"
+                alt="FedEx logo"
+                className="w-40 sm:w-56 md:w-64 h-auto object-contain"
+                loading="lazy"
+              />
             </div>
-            <div className="flex items-center justify-center h-16 rounded-lg bg-white border">
-              <span className="text-sm font-medium text-muted-foreground">Delhivery</span>
+            <div className="flex items-center justify-center h-20 md:h-24 rounded-lg bg-white border">
+              <img
+                src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fsellonboard.com%2Fshipment%2Fdelhivery%2F&psig=AOvVaw2i_MjqPs3inbgARJcr6BTW&ust=1755191173968000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCIiP--KiiI8DFQAAAAAdAAAAABAK"
+                alt="Delhivery logo"
+                className="w-40 sm:w-56 md:w-64 h-auto object-contain"
+                loading="lazy"
+              />
             </div>
-            <div className="flex items-center justify-center h-16 rounded-lg bg-white border">
-              <span className="text-sm font-medium text-muted-foreground">Cargo Service</span>
+            <div className="flex items-center justify-center h-20 md:h-24 rounded-lg bg-white border">
+              <img
+                src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fcargo-service-logo&psig=AOvVaw32TqAwwRjQ7c0uHTo03sEP&ust=1755191217374000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPia5YmjiI8DFQAAAAAdAAAAABA2"
+                alt="Cargo Service logo"
+                className="w-40 sm:w-56 md:w-64 h-auto object-contain"
+                loading="lazy"
+              />
             </div>
-            <div className="flex items-center justify-center h-16 rounded-lg bg-white border">
-              <span className="text-sm font-medium text-muted-foreground">UPS</span>
+            <div className="flex items-center justify-center h-20 md:h-24 rounded-lg bg-white border">
+              <img
+                src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngegg.com%2Fen%2Fsearch%3Fq%3Dups%2BLogo&psig=AOvVaw33DjNy9s1cmh9AjbUFuPks&ust=1755191307797000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLjnv6KjiI8DFQAAAAAdAAAAABAE"
+                alt="UPS logo"
+                className="w-40 sm:w-56 md:w-64 h-auto object-contain"
+                loading="lazy"
+              />
             </div>
           </div>
         </div>
