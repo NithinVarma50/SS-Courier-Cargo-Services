@@ -187,8 +187,8 @@ export default function Home() {
             </div>
             <div className="flex items-center justify-center h-16 sm:h-20 rounded-lg bg-white border overflow-hidden p-2 sm:p-3">
               <img
-                src="https://images.seeklogo.com/logo-png/35/1/delhivery-logo-png_seeklogo-356432.png"
-                alt="Delhivery logo"
+                src="https://images.seeklogo.com/logo-png/24/1/aramex-logo-png_seeklogo-249605.png"
+                alt="Aramex logo"
                 className="max-h-12 sm:max-h-16 w-auto max-w-full object-contain"
                 loading="lazy"
                 referrerPolicy="no-referrer"
