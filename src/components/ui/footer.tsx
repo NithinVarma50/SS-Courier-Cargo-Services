@@ -28,7 +28,13 @@ export function Footer() {
               <a href="#" className="text-primary-foreground/60 hover:text-white transition-colors">
                 <Twitter className="w-5 h-5" />
               </a>
-              <a href="#" className="text-primary-foreground/60 hover:text-white transition-colors">
+              <a 
+                href="https://www.instagram.com/sscourier.in?igsh=Nzk2NW4wb294b2hs&utm_source=qr" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                aria-label="Instagram - SS Courier"
+                className="text-primary-foreground/60 hover:text-white transition-colors"
+              >
                 <Instagram className="w-5 h-5" />
               </a>
               <a href="#" className="text-primary-foreground/60 hover:text-white transition-colors">
