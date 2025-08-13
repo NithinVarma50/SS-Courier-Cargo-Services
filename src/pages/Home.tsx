@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { ArrowRight, Package, Globe, Truck, Zap, MapPin, Clock, Users, Shield, Star, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { Case } from '@/components/ui/cases-with-infinite-scroll';
 import { Input } from '@/components/ui/input';
 import heroImage from '@/assets/hero-courier.jpg';
 
@@ -155,6 +156,35 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Collaboration Logos Section */}
+      <section className="py-12 bg-secondary/10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-8">
+            <h3 className="text-xl md:text-2xl font-semibold text-foreground">In collaboration with</h3>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 items-center">
+            <div className="flex items-center justify-center h-16 rounded-lg bg-white border">
+              <span className="text-sm font-medium text-muted-foreground">DTDC</span>
+            </div>
+            <div className="flex items-center justify-center h-16 rounded-lg bg-white border">
+              <span className="text-sm font-medium text-muted-foreground">FedEx</span>
+            </div>
+            <div className="flex items-center justify-center h-16 rounded-lg bg-white border">
+              <span className="text-sm font-medium text-muted-foreground">Delhivery</span>
+            </div>
+            <div className="flex items-center justify-center h-16 rounded-lg bg-white border">
+              <span className="text-sm font-medium text-muted-foreground">Cargo Service</span>
+            </div>
+            <div className="flex items-center justify-center h-16 rounded-lg bg-white border">
+              <span className="text-sm font-medium text-muted-foreground">UPS</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Cases Carousel */}
+      <Case />
 
       {/* Main Features Section */}
       <section className="py-20 bg-secondary/20">
