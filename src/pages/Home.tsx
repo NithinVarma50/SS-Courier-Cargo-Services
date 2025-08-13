@@ -164,11 +164,11 @@ export default function Home() {
             <h3 className="text-xl md:text-2xl font-semibold text-foreground">In collaboration with</h3>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 items-center">
-            <div className="flex items-center justify-center h-28 rounded-lg bg-white border">
+            <div className="flex items-center justify-center h-20 md:h-24 rounded-lg bg-white border col-span-2 sm:col-span-1">
               <img
                 src="https://images.seeklogo.com/logo-png/48/1/dtdc-logo-png_seeklogo-489117.png"
                 alt="DTDC logo"
-                className="h-24 sm:h-28 object-contain"
+                className="w-40 sm:w-56 md:w-64 h-auto object-contain"
                 loading="lazy"
               />
             </div>
