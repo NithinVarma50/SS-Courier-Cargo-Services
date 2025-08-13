@@ -27,10 +27,10 @@ export function Navbar() {
         <div className="flex justify-between items-center h-20">
           <Link to="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
             <img src={ssLogoSince2001} alt="SS Courier & Cargo Services logo" className="h-16 w-auto" />
-            <div className="hidden sm:flex flex-col leading-tight">
-              <span className="font-semibold text-foreground">SS Courier & Cargo Services</span>
-              <span className="text-xs text-muted-foreground">Domestic & International</span>
-              <span className="text-xs text-muted-foreground">We Deliver Your Needs</span>
+            <div className="flex flex-col leading-tight">
+              <span className="font-medium text-foreground text-sm sm:text-base">SS Courier & Cargo Services</span>
+              <span className="text-[11px] sm:text-xs text-muted-foreground">Domestic & International</span>
+              <span className="text-[11px] sm:text-xs text-muted-foreground">We Deliver Your Needs</span>
             </div>
             <span className="sr-only">SS Courier & Cargo Services — Domestic & International — We Deliver Your Needs</span>
           </Link>
