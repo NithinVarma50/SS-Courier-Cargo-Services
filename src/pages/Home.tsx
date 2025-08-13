@@ -187,7 +187,7 @@ export default function Home() {
             </div>
             <div className="flex items-center justify-center h-16 sm:h-20 rounded-lg bg-white border overflow-hidden p-2 sm:p-3">
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Delhivery_Logo.svg/512px-Delhivery_Logo.svg.png"
+                src="https://images.seeklogo.com/logo-png/35/1/delhivery-logo-png_seeklogo-356432.png"
                 alt="Delhivery logo"
                 className="max-h-12 sm:max-h-16 w-auto max-w-full object-contain"
                 loading="lazy"
