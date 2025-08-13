@@ -176,7 +176,7 @@ export default function Home() {
             </div>
             <div className="flex items-center justify-center h-16 sm:h-20 rounded-lg bg-white border overflow-hidden p-2 sm:p-3">
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/FedEx_Express.svg/512px-FedEx_Express.svg.png"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKCAHCxWwutWINsktvMA8P3fCCPOKZuHQgWQ&s"
                 alt="FedEx logo"
                 className="max-h-12 sm:max-h-16 w-auto max-w-full object-contain"
                 loading="lazy"
