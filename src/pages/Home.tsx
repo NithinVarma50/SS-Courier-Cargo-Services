@@ -165,11 +165,11 @@ export default function Home() {
             <h3 className="text-xl md:text-2xl font-semibold text-foreground">In collaboration with</h3>
           </div>
           <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 gap-4 items-center">
-            <div className="flex items-center justify-center h-16 sm:h-20 overflow-hidden p-2 sm:p-3">
+            <div className="flex items-center justify-center h-20 sm:h-24 overflow-hidden p-2 sm:p-3">
               <img
                 src="https://images.seeklogo.com/logo-png/48/1/dtdc-logo-png_seeklogo-489117.png"
                 alt="DTDC logo"
-                className="max-h-12 sm:max-h-16 w-auto max-w-full object-contain"
+                className="max-h-16 sm:max-h-20 w-auto max-w-full object-contain"
                 loading="lazy"
                 onError={(e) => { (e.currentTarget as HTMLImageElement).src = ssLogo; }}
               />
@@ -185,11 +185,11 @@ export default function Home() {
                 onError={(e) => { (e.currentTarget as HTMLImageElement).src = ssLogo; }}
               />
             </div>
-            <div className="flex items-center justify-center h-16 sm:h-20 overflow-hidden p-2 sm:p-3">
+            <div className="flex items-center justify-center h-20 sm:h-24 overflow-hidden p-2 sm:p-3">
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8zQYCgdWMruF8OK5URBkADp1P_c6-GBnrRg&s"
                 alt="DPD logo"
-                className="max-h-12 sm:max-h-16 w-auto max-w-full object-contain"
+                className="max-h-16 sm:max-h-20 w-auto max-w-full object-contain"
                 loading="lazy"
                 referrerPolicy="no-referrer"
                 crossOrigin="anonymous"
