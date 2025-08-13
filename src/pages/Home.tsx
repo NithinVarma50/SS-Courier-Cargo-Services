@@ -180,6 +180,8 @@ export default function Home() {
                 alt="FedEx logo"
                 className="w-40 sm:w-56 md:w-64 h-auto object-contain"
                 loading="lazy"
+                referrerPolicy="no-referrer"
+                crossOrigin="anonymous"
                 onError={(e) => { (e.currentTarget as HTMLImageElement).src = ssLogo; }}
               />
             </div>
@@ -189,6 +191,8 @@ export default function Home() {
                 alt="Delhivery logo"
                 className="w-40 sm:w-56 md:w-64 h-auto object-contain"
                 loading="lazy"
+                referrerPolicy="no-referrer"
+                crossOrigin="anonymous"
                 onError={(e) => { (e.currentTarget as HTMLImageElement).src = ssLogo; }}
               />
             </div>
@@ -198,6 +202,8 @@ export default function Home() {
                 alt="Cargo Service logo"
                 className="w-40 sm:w-56 md:w-64 h-auto object-contain"
                 loading="lazy"
+                referrerPolicy="no-referrer"
+                crossOrigin="anonymous"
                 onError={(e) => { (e.currentTarget as HTMLImageElement).src = ssLogo; }}
               />
             </div>
@@ -207,6 +213,8 @@ export default function Home() {
                 alt="UPS logo"
                 className="w-40 sm:w-56 md:w-64 h-auto object-contain"
                 loading="lazy"
+                referrerPolicy="no-referrer"
+                crossOrigin="anonymous"
                 onError={(e) => { (e.currentTarget as HTMLImageElement).src = ssLogo; }}
               />
             </div>
