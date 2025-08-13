@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "missing": [
+        { "type": "filesystem" }
+      ],
+      "destination": "/index.html"
+    }
+  ]
+}
+
+
