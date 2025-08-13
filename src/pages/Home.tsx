@@ -166,7 +166,7 @@ export default function Home() {
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 items-center">
             <div className="flex items-center justify-center h-16 rounded-lg bg-white border">
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/DTDC_Express_Logo.png/512px-DTDC_Express_Logo.png"
+                src="https://images.seeklogo.com/logo-png/48/1/dtdc-logo-png_seeklogo-489117.png"
                 alt="DTDC logo"
                 className="h-10 object-contain"
                 loading="lazy"
