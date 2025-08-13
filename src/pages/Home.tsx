@@ -161,57 +161,57 @@ export default function Home() {
       {/* Collaboration Logos Section */}
       <section className="py-12 bg-secondary/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-8">
+          <div className="text-center mb-6">
             <h3 className="text-xl md:text-2xl font-semibold text-foreground">In collaboration with</h3>
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 items-center">
-            <div className="flex items-center justify-center h-20 md:h-24 rounded-lg bg-white border">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 items-center">
+            <div className="flex items-center justify-center h-16 sm:h-20 rounded-lg bg-white border overflow-hidden p-2 sm:p-3">
               <img
                 src="https://images.seeklogo.com/logo-png/48/1/dtdc-logo-png_seeklogo-489117.png"
                 alt="DTDC logo"
-                className="w-40 sm:w-56 md:w-64 h-auto object-contain"
+                className="max-h-12 sm:max-h-16 w-auto max-w-full object-contain"
                 loading="lazy"
                 onError={(e) => { (e.currentTarget as HTMLImageElement).src = ssLogo; }}
               />
             </div>
-            <div className="flex items-center justify-center h-20 md:h-24 rounded-lg bg-white border">
+            <div className="flex items-center justify-center h-16 sm:h-20 rounded-lg bg-white border overflow-hidden p-2 sm:p-3">
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/FedEx_Express.svg/512px-FedEx_Express.svg.png"
                 alt="FedEx logo"
-                className="w-40 sm:w-56 md:w-64 h-auto object-contain"
+                className="max-h-12 sm:max-h-16 w-auto max-w-full object-contain"
                 loading="lazy"
                 referrerPolicy="no-referrer"
                 crossOrigin="anonymous"
                 onError={(e) => { (e.currentTarget as HTMLImageElement).src = ssLogo; }}
               />
             </div>
-            <div className="flex items-center justify-center h-20 md:h-24 rounded-lg bg-white border">
+            <div className="flex items-center justify-center h-16 sm:h-20 rounded-lg bg-white border overflow-hidden p-2 sm:p-3">
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Delhivery_Logo.svg/512px-Delhivery_Logo.svg.png"
                 alt="Delhivery logo"
-                className="w-40 sm:w-56 md:w-64 h-auto object-contain"
+                className="max-h-12 sm:max-h-16 w-auto max-w-full object-contain"
                 loading="lazy"
                 referrerPolicy="no-referrer"
                 crossOrigin="anonymous"
                 onError={(e) => { (e.currentTarget as HTMLImageElement).src = ssLogo; }}
               />
             </div>
-            <div className="flex items-center justify-center h-20 md:h-24 rounded-lg bg-white border">
+            <div className="flex items-center justify-center h-16 sm:h-20 rounded-lg bg-white border overflow-hidden p-2 sm:p-3">
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Cargo_logo.svg/512px-Cargo_logo.svg.png"
                 alt="Cargo Service logo"
-                className="w-40 sm:w-56 md:w-64 h-auto object-contain"
+                className="max-h-12 sm:max-h-16 w-auto max-w-full object-contain"
                 loading="lazy"
                 referrerPolicy="no-referrer"
                 crossOrigin="anonymous"
                 onError={(e) => { (e.currentTarget as HTMLImageElement).src = ssLogo; }}
               />
             </div>
-            <div className="flex items-center justify-center h-20 md:h-24 rounded-lg bg-white border">
+            <div className="flex items-center justify-center h-16 sm:h-20 rounded-lg bg-white border overflow-hidden p-2 sm:p-3">
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/UPS_Logo_Shield_2017.svg/512px-UPS_Logo_Shield_2017.svg.png"
                 alt="UPS logo"
-                className="w-40 sm:w-56 md:w-64 h-auto object-contain"
+                className="max-h-12 sm:max-h-16 w-auto max-w-full object-contain"
                 loading="lazy"
                 referrerPolicy="no-referrer"
                 crossOrigin="anonymous"
