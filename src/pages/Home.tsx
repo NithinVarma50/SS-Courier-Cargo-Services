@@ -162,7 +162,7 @@ export default function Home() {
       <section className="py-12 bg-secondary/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-6">
-            <h3 className="text-xl md:text-2xl font-semibold text-foreground">In collaboration with</h3>
+            <h3 className="text-2xl md:text-3xl font-semibold text-foreground">In collaboration with</h3>
           </div>
           <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 gap-2 items-center">
             <div className="flex items-center justify-center h-12 sm:h-16 overflow-hidden p-1 sm:p-2">

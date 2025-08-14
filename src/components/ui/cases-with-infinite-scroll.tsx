@@ -21,7 +21,7 @@ function Case() {
     <div className="w-full py-20 lg:py-40">
       <div className="container mx-auto">
         <div className="flex flex-col  gap-10">
-          <h2 className="text-xl md:text-3xl md:text-5xl tracking-tighter lg:max-w-xl font-regular text-left">
+          <h2 className="text-lg md:text-xl tracking-tighter lg:max-w-xl font-regular text-left">
             Trusted by businesses
           </h2>
           <div className="overflow-hidden w-full">
