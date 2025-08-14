@@ -7,8 +7,8 @@ import {
 } from "@/components/ui/carousel";
 
 // Import company logos
-import iciciBankLogo from "@/assets/logos/icici-bank-logo.png";
-import hdfcBankLogo from "@/assets/logos/hdfc-bank-logo.png";
+import iciciBankLogo from "@/assets/logos/icici-bank-real-logo.png";
+import hdfcBankLogo from "@/assets/logos/hdfc-bank-real-logo.png";
 import kotakBankLogo from "@/assets/logos/kotak-bank-logo.png";
 import pullaReddyLogo from "@/assets/logos/pulla-reddy-logo.jpg";
 import karachiBakeryLogo from "@/assets/logos/karachi-bakery-logo.png";
