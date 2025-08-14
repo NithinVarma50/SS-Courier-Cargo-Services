@@ -32,13 +32,8 @@ function Case() {
     }
 
     const id = setTimeout(() => {
-      if (api.selectedScrollSnap() + 1 === api.scrollSnapList().length) {
-        setCurrent(0);
-        api.scrollTo(0);
-      } else {
-        api.scrollNext();
-        setCurrent(current + 1);
-      }
+      api.scrollNext();
+      setCurrent(current + 1);
     }, 2000); // Slower scroll for better viewing
 
     return () => clearTimeout(id);
@@ -51,11 +46,11 @@ function Case() {
           <h2 className="text-xl md:text-3xl md:text-5xl tracking-tighter lg:max-w-xl font-regular text-left">
             Trusted by businesses
           </h2>
-          <Carousel setApi={setApi} className="w-full">
+          <Carousel setApi={setApi} className="w-full" opts={{ loop: true }}>
             <CarouselContent>
               {companies.map((company, index) => (
                 <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/5" key={index}>
-                  <div className="flex rounded-lg aspect-square bg-background border border-border items-center justify-center p-4 hover:shadow-md transition-shadow">
+                  <div className="flex rounded-lg aspect-square bg-background border border-border items-center justify-center p-4 hover:shadow-md transition-shadow animate-[spin_12s_linear_infinite] hover:[animation-play-state:paused]">
                     <img 
                       src={company.logo} 
                       alt={`${company.name} logo`} 
