@@ -1,10 +1,4 @@
-import { useEffect, useState } from "react";
-import {
-  Carousel,
-  type CarouselApi,
-  CarouselContent,
-  CarouselItem,
-} from "@/components/ui/carousel";
+import React from "react";
 
 // Import company logos
 import iciciBankLogo from "@/assets/logos/icici-bank-final-logo.png";
@@ -23,22 +17,6 @@ const companies = [
 ];
 
 function Case() {
-  const [api, setApi] = useState<CarouselApi>();
-  const [current, setCurrent] = useState(0);
-
-  useEffect(() => {
-    if (!api) {
-      return;
-    }
-
-    const id = setTimeout(() => {
-      api.scrollNext();
-      setCurrent(current + 1);
-    }, 2000); // Slower scroll for better viewing
-
-    return () => clearTimeout(id);
-  }, [api, current]);
-
   return (
     <div className="w-full py-20 lg:py-40">
       <div className="container mx-auto">
@@ -46,21 +24,19 @@ function Case() {
           <h2 className="text-xl md:text-3xl md:text-5xl tracking-tighter lg:max-w-xl font-regular text-left">
             Trusted by businesses
           </h2>
-          <Carousel setApi={setApi} className="w-full" opts={{ loop: true }}>
-            <CarouselContent>
-              {companies.map((company, index) => (
-                <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/5" key={index}>
-                  <div className="flex rounded-lg aspect-square bg-background border border-border items-center justify-center p-4 hover:shadow-md transition-shadow animate-[spin_12s_linear_infinite] hover:[animation-play-state:paused]">
-                    <img 
-                      src={company.logo} 
-                      alt={`${company.name} logo`} 
-                      className="max-w-full max-h-full object-contain"
-                    />
-                  </div>
-                </CarouselItem>
+          <div className="overflow-hidden w-full">
+            <div className="flex w-max gap-4 animate-[marquee_20s_linear_infinite] hover:[animation-play-state:paused]">
+              {[...companies, ...companies].map((company, index) => (
+                <div key={index} className="flex items-center justify-center rounded-lg bg-background border border-border p-4 min-w-[140px] md:min-w-[160px] aspect-square">
+                  <img
+                    src={company.logo}
+                    alt={`${company.name} logo`}
+                    className="max-w-full max-h-full object-contain"
+                  />
+                </div>
               ))}
-            </CarouselContent>
-          </Carousel>
+            </div>
+          </div>
         </div>
       </div>
     </div>
