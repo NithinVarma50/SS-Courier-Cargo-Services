@@ -3,7 +3,7 @@ import { ArrowRight, Package, Globe, Truck, Zap, MapPin, Clock, Users, Shield, S
 import { Button } from '@/components/ui/button';
 import { Case } from '@/components/ui/cases-with-infinite-scroll';
 import { Input } from '@/components/ui/input';
-import heroImage from '@/assets/new-truck-hero.png';
+import heroImage from '@/assets/hero-courier.jpg';
 import ssLogo from '@/assets/ss-logo.png';
 
 
