@@ -25,13 +25,13 @@ function Case() {
             Trusted by businesses
           </h2>
           <div className="overflow-hidden w-full">
-            <div className="flex w-max gap-2 animate-[marquee_20s_linear_infinite] hover:[animation-play-state:paused]">
+            <div className="flex w-max gap-4 animate-[marquee_20s_linear_infinite] hover:[animation-play-state:paused]">
               {[...companies, ...companies].map((company, index) => (
-                <div key={index} className="flex items-center justify-center rounded-lg bg-background border border-border p-2 min-w-[100px] md:min-w-[120px] aspect-square">
+                <div key={index} className="flex items-center justify-center h-20 sm:h-24 overflow-hidden p-2 sm:p-3 min-w-[100px] md:min-w-[120px]">
                   <img
                     src={company.logo}
                     alt={`${company.name} logo`}
-                    className="w-auto max-h-12 md:max-h-16 object-contain"
+                    className="max-h-16 sm:max-h-20 w-auto max-w-full object-contain"
                   />
                 </div>
               ))}
