@@ -21,17 +21,17 @@ function Case() {
     <div className="w-full py-20 lg:py-40">
       <div className="container mx-auto">
         <div className="flex flex-col  gap-10">
-          <h2 className="text-lg md:text-xl tracking-tighter lg:max-w-xl font-regular text-left">
+          <h2 className="text-2xl md:text-4xl tracking-tighter lg:max-w-xl font-regular text-left">
             Trusted by businesses
           </h2>
           <div className="overflow-hidden w-full">
-            <div className="flex w-max gap-4 animate-[marquee_20s_linear_infinite] hover:[animation-play-state:paused]">
+            <div className="flex w-max gap-2 animate-[marquee_20s_linear_infinite] hover:[animation-play-state:paused]">
               {[...companies, ...companies].map((company, index) => (
-                <div key={index} className="flex items-center justify-center rounded-lg bg-background border border-border p-4 min-w-[140px] md:min-w-[160px] aspect-square">
+                <div key={index} className="flex items-center justify-center rounded-lg bg-background border border-border p-2 min-w-[100px] md:min-w-[120px] aspect-square">
                   <img
                     src={company.logo}
                     alt={`${company.name} logo`}
-                    className="max-w-full max-h-full object-contain"
+                    className="w-auto max-h-12 md:max-h-16 object-contain"
                   />
                 </div>
               ))}
