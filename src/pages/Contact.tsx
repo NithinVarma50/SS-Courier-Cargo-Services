@@ -7,7 +7,6 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Phone, Mail, MapPin, Clock, MessageSquare, Send } from 'lucide-react';
 import ssLogo from '@/assets/ss-logo.png';
-import logo1 from '@/assets/logo1.png';
 
 export default function Contact() {
   const [form, setForm] = useState({
@@ -197,7 +196,6 @@ export default function Contact() {
             <div>
                              <div className="flex items-center gap-2 mb-4">
                  <img src={ssLogo} alt="SS Courier & Cargo Services" className="h-8" />
-                 <img src={logo1} alt="SS Courier & Cargo Services" className="h-8" />
                  <span className="font-bold text-lg">SS Courier & Cargo</span>
                </div>
               <p className="text-sm text-muted-foreground mb-4">
