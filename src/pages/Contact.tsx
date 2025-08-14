@@ -84,7 +84,7 @@ export default function Contact() {
                 </div>
                 <div className="flex items-center gap-2">
                   <Clock className="w-5 h-5 text-primary" />
-                  <span>Mon–Sat: 9 AM – 8 PM | Sunday: Closed</span>
+                  <span>24/7 Service Available | Sunday Open</span>
                 </div>
                 <div className="mt-4">
                   <a href="https://wa.me/919848231347" target="_blank" rel="noopener" className="inline-flex items-center gap-2 px-4 py-2 bg-green-500 text-white rounded shadow hover:bg-green-600">
@@ -124,7 +124,7 @@ export default function Contact() {
               <CardContent>
                 {submitted ? (
                   <div className="p-4 text-center text-green-600 font-semibold">
-                    Thank you! We'll get back to you within 2 hours during business hours.
+                    Thank you! We'll get back to you within 2 hours. We're available 24/7 including Sundays.
                   </div>
                 ) : (
                   <form className="space-y-4" onSubmit={handleSubmit}>
@@ -249,7 +249,7 @@ export default function Contact() {
                 </div>
                 <div className="flex items-center gap-2">
                   <Clock className="w-4 h-4 text-primary" />
-                  <span>Mon–Sat: 9 AM – 8 PM</span>
+                  <span>24/7 Service Available | Sunday Open</span>
                 </div>
               </div>
             </div>

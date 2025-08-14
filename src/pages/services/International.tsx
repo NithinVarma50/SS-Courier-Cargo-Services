@@ -29,25 +29,25 @@ export default function International() {
   const serviceTypes = [
     {
       name: "International Express",
-      time: "3-5 business days",
+      time: "3-5 days",
       price: "₹1500/kg",
       coverage: "Worldwide"
     },
     {
       name: "Priority International",
-      time: "5-7 business days",
+      time: "5-7 days",
       price: "₹1200/kg",
       coverage: "Worldwide"
     },
     {
       name: "Standard International",
-      time: "7-10 business days",
+      time: "7-10 days",
       price: "₹900/kg",
       coverage: "Worldwide"
     },
     {
       name: "Economy International",
-      time: "10-15 business days",
+      time: "10-15 days",
       price: "₹700/kg",
       coverage: "Select countries"
     }

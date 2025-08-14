@@ -29,19 +29,19 @@ export default function Cargo() {
   const serviceTypes = [
     {
       name: "Premium Cargo",
-      time: "2-3 business days",
+      time: "2-3 days",
       price: "₹80/kg",
       maxWeight: "1000kg"
     },
     {
       name: "Standard Cargo",
-      time: "3-5 business days",
+      time: "3-5 days",
       price: "₹60/kg",
       maxWeight: "1000kg"
     },
     {
       name: "Economy Cargo",
-      time: "5-7 business days",
+      time: "5-7 days",
       price: "₹45/kg",
       maxWeight: "1000kg"
     },

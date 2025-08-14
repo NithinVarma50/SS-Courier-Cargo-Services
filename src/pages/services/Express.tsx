@@ -35,13 +35,13 @@ export default function Express() {
     },
     {
       name: "Next Day Express",
-      time: "By next business day",
+      time: "By next day",
       price: "₹200 base + ₹15/km",
       coverage: "Major cities"
     },
     {
       name: "Priority Express",
-      time: "1-2 business days",
+      time: "1-2 days",
       price: "₹150 base + ₹10/km",
       coverage: "Pan-India"
     },

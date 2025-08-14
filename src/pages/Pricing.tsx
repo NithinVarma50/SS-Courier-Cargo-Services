@@ -55,7 +55,7 @@ export default function Pricing() {
     { service: "Additional Insurance", price: "0.5% of declared value" },
     { service: "Packing Materials", price: "₹25 - ₹150" },
     { service: "Express Pickup", price: "₹100" },
-    { service: "Saturday Delivery", price: "₹75 extra" },
+    { service: "Sunday Delivery", price: "₹75 extra" },
     { service: "Proof of Delivery", price: "₹25" }
   ];
 

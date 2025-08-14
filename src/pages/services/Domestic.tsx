@@ -35,19 +35,19 @@ export default function Domestic() {
     },
     {
       name: "Next Day Express",
-      time: "Next business day",
+      time: "Next day",
       price: "₹100/kg",
       coverage: "Major cities"
     },
     {
       name: "Standard Delivery",
-      time: "2-3 business days",
+      time: "2-3 days",
       price: "₹75/kg",
       coverage: "All India"
     },
     {
       name: "Economy Service",
-      time: "3-5 business days",
+      time: "3-5 days",
       price: "₹50/kg",
       coverage: "All India"
     }

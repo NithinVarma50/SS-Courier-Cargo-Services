@@ -8,7 +8,7 @@ const services = [
     title: 'Domestic Courier',
     description: 'Fast and reliable delivery across India with real-time tracking and secure handling.',
     features: ['Pan-India Coverage', 'Real-time Tracking', 'COD Available', 'Insurance Protected'],
-    deliveryTime: '1-3 Business Days',
+    deliveryTime: '1-3 Days',
     link: '/services/domestic'
   },
   {
@@ -16,7 +16,7 @@ const services = [
     title: 'International Courier',
     description: 'Export shipping from India with customs clearance support and global delivery. No import services.',
     features: ['220+ Countries', 'Export Customs Clearance', 'Door-to-Door', 'Documentation Support'],
-    deliveryTime: '3-7 Business Days',
+    deliveryTime: '3-7 Days',
     link: '/services/international'
   },
   {
@@ -24,7 +24,7 @@ const services = [
     title: 'Cargo Services',
     description: 'Heavy shipments and bulk cargo transportation with specialized handling.',
     features: ['Heavy Cargo', 'Bulk Shipments', 'Special Handling', 'Competitive Rates'],
-    deliveryTime: '2-5 Business Days',
+    deliveryTime: '2-5 Days',
     link: '/services/cargo'
   },
   {

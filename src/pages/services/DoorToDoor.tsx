@@ -29,7 +29,7 @@ export default function DoorToDoor() {
   const serviceTypes = [
     {
       name: "Standard Pickup",
-      time: "Next business day",
+      time: "Next day",
       price: "₹50",
       window: "4-hour window"
     },
@@ -291,7 +291,7 @@ export default function DoorToDoor() {
                   </li>
                   <li className="flex items-center space-x-2">
                     <span className="w-2 h-2 bg-primary rounded-full"></span>
-                    <span className="text-foreground">Customized pickup windows to fit your business hours</span>
+                    <span className="text-foreground">24/7 pickup availability including Sundays</span>
                   </li>
                   <li className="flex items-center space-x-2">
                     <span className="w-2 h-2 bg-primary rounded-full"></span>
