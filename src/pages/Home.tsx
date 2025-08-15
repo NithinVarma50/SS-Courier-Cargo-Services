@@ -478,7 +478,12 @@ export default function Home() {
               >
                 <div className="flex space-x-1 mb-4">
                   {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 text-accent fill-current" />
+                    <Star 
+                      key={i} 
+                      className={`w-5 h-5 fill-current ${
+                        testimonial.rating >= 4 ? 'text-yellow-500' : 'text-accent'
+                      }`} 
+                    />
                   ))}
                 </div>
                 <blockquote className="text-muted-foreground mb-6 italic">
