@@ -115,7 +115,7 @@ export default function Track() {
                   <div className="flex space-x-3">
                     <Input
                       id="tracking"
-                      placeholder="Enter your tracking number (e.g., SS001234567)"
+                      placeholder="Enter your tracking number"
                       value={trackingNumber}
                       onChange={(e) => setTrackingNumber(e.target.value)}
                       onKeyDown={(e) => e.key === 'Enter' && handleTrack()}
