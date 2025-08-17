@@ -207,10 +207,7 @@ export default function Cargo() {
                   <h4 className="font-medium text-foreground">Packaging</h4>
                   <p className="text-sm text-muted-foreground">Custom packaging solutions for fragile and valuable items</p>
                 </div>
-                <div className="p-3 bg-secondary/40 rounded-lg">
-                  <h4 className="font-medium text-foreground">Insurance</h4>
-                  <p className="text-sm text-muted-foreground">Comprehensive coverage options for your peace of mind</p>
-                </div>
+
               </div>
             </div>
           </div>

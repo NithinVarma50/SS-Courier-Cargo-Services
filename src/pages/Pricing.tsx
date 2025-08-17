@@ -12,7 +12,7 @@ export default function Pricing() {
       features: [
         "Next day delivery in major cities",
         "Real-time tracking",
-        "Insurance up to ₹5,000",
+        "Professional handling",
         "Free pickup from location",
         "SMS & email notifications"
       ],
@@ -26,7 +26,7 @@ export default function Pricing() {
       features: [
         "7-10 days export delivery from India",
         "Real-time tracking",
-        "Insurance up to ₹25,000",
+        "Professional handling",
         "Customs clearance support",
         "Door-to-door delivery",
         "Free packaging materials"
@@ -52,7 +52,7 @@ export default function Pricing() {
 
   const additionalServices = [
     { service: "COD (Cash on Delivery)", price: "₹50 + 2% of amount" },
-    { service: "Additional Insurance", price: "0.5% of declared value" },
+
     { service: "Packing Materials", price: "₹25 - ₹150" },
     { service: "Express Pickup", price: "₹100" },
     { service: "Sunday Delivery", price: "₹75 extra" },

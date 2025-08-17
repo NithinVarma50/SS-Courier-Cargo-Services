@@ -7,7 +7,7 @@ const services = [
     icon: Package,
     title: 'Domestic Courier',
     description: 'Fast and reliable delivery across India with real-time tracking and secure handling.',
-    features: ['Pan-India Coverage', 'Real-time Tracking', 'COD Available', 'Insurance Protected'],
+    features: ['Pan-India Coverage', 'Real-time Tracking', 'COD Available', 'Professional Handling'],
     deliveryTime: '1-3 Days',
     link: '/services/domestic'
   },
@@ -54,7 +54,7 @@ const benefits = [
   {
     icon: Shield,
     title: 'Secure Handling',
-    description: 'Your packages are fully insured and handled with utmost care.'
+    description: 'Your packages are handled with utmost care and professional service.'
   },
   {
     icon: DollarSign,

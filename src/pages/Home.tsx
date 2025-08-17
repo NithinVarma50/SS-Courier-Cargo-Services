@@ -59,7 +59,7 @@ const features = [
   {
     icon: Shield,
     title: 'Secure & Safe',
-    description: 'Fully insured packages, handled with care.'
+    description: 'Professional handling and reliable delivery.'
   }
 ];
 

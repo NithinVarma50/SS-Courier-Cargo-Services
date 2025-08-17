@@ -16,7 +16,7 @@ export default function About() {
     "Competitive pricing for all service categories", 
     "Modern technology for tracking and management",
     "24/7 customer support and assistance",
-    "Secure handling of all shipments"
+    "Professional handling of all shipments"
   ];
 
   return (

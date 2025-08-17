@@ -185,10 +185,7 @@ export default function BookNow() {
                   <div className="space-y-4">
                     <h3 className="text-lg font-semibold">Additional Services</h3>
                     <div className="space-y-3">
-                      <div className="flex items-center space-x-2">
-                        <Checkbox id="insurance" />
-                        <Label htmlFor="insurance">Extra Insurance Coverage</Label>
-                      </div>
+
                       <div className="flex items-center space-x-2">
                         <Checkbox id="cod" />
                         <Label htmlFor="cod">Cash on Delivery (COD)</Label>

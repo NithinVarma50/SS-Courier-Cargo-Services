@@ -12,7 +12,7 @@ export default function International() {
     {
       icon: Shield,
       title: "Secure Handling",
-      description: "Your international packages are handled with utmost care and security"
+      description: "Your international packages are handled with utmost care and professionalism"
     },
     {
       icon: FileText,

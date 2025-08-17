@@ -12,7 +12,7 @@ export default function Domestic() {
     {
       icon: Shield,
       title: "Secure Handling",
-      description: "Your packages are handled with utmost care and security"
+      description: "Your packages are handled with utmost care and professionalism"
     },
     {
       icon: Clock,
