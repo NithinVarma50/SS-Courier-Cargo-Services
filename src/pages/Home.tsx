@@ -395,12 +395,9 @@ export default function Home() {
                   alt="Domestic Courier" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
-                <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-medium text-blue-600">
-                  DOMESTIC
-                </div>
-                <div className="absolute bottom-4 right-4 w-12 h-12 bg-accent rounded-full flex items-center justify-center text-white">
-                  <ArrowRight className="w-6 h-6" />
-                </div>
+                                 <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-medium text-blue-600">
+                   DOMESTIC
+                 </div>
               </div>
               <h3 className="text-2xl font-bold text-foreground mb-3">Domestic Courier Services</h3>
               <p className="text-muted-foreground mb-6 leading-relaxed">
@@ -419,12 +416,9 @@ export default function Home() {
                   alt="International Courier" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
-                <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-medium text-green-600">
-                  INTERNATIONAL
-                </div>
-                <div className="absolute bottom-4 right-4 w-12 h-12 bg-accent rounded-full flex items-center justify-center text-white">
-                  <ArrowRight className="w-6 h-6" />
-                </div>
+                                 <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-medium text-green-600">
+                   INTERNATIONAL
+                 </div>
               </div>
               <h3 className="text-2xl font-bold text-foreground mb-3">International Courier Services</h3>
               <p className="text-muted-foreground mb-6 leading-relaxed">
@@ -443,12 +437,9 @@ export default function Home() {
                   alt="Cargo & Express Delivery" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
-                <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-medium text-orange-600">
-                  CARGO & EXPRESS
-                </div>
-                <div className="absolute bottom-4 right-4 w-12 h-12 bg-accent rounded-full flex items-center justify-center text-white">
-                  <ArrowRight className="w-6 h-6" />
-                </div>
+                                 <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-medium text-orange-600">
+                   CARGO & EXPRESS
+                 </div>
               </div>
               <h3 className="text-2xl font-bold text-foreground mb-3">Cargo & Express Delivery</h3>
               <p className="text-muted-foreground mb-6 leading-relaxed">
