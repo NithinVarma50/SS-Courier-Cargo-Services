@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Case } from '@/components/ui/cases-with-infinite-scroll';
 import { Input } from '@/components/ui/input';
 import heroImage from '@/assets/hero-courier-new.png';
+import domesticCourierImage from '@/assets/domestic-courier.png';
 import ssLogo from '@/assets/ss-logo.png';
 
 
@@ -388,7 +389,7 @@ export default function Home() {
             <div className="group relative animate-slide-up">
               <div className="aspect-video bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl overflow-hidden mb-6 relative">
                 <img 
-                  src={heroImage} 
+                  src={domesticCourierImage} 
                   alt="Domestic Courier" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
