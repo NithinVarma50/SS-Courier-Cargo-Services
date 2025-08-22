@@ -5,6 +5,8 @@ import { Case } from '@/components/ui/cases-with-infinite-scroll';
 import { Input } from '@/components/ui/input';
 import heroImage from '@/assets/hero-courier-new.png';
 import domesticCourierImage from '@/assets/domestic-courier.png';
+import internationalCourierImage from '@/assets/international-courier.png';
+import cargoExpressImage from '@/assets/cargo-express.png';
 import ssLogo from '@/assets/ss-logo.png';
 
 
@@ -413,7 +415,7 @@ export default function Home() {
             <div className="group relative animate-slide-up" style={{ animationDelay: '0.1s' }}>
               <div className="aspect-video bg-gradient-to-br from-green-500 to-green-600 rounded-2xl overflow-hidden mb-6 relative">
                 <img 
-                  src={heroImage} 
+                  src={internationalCourierImage} 
                   alt="International Courier" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
@@ -437,7 +439,7 @@ export default function Home() {
             <div className="group relative animate-slide-up" style={{ animationDelay: '0.2s' }}>
               <div className="aspect-video bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl overflow-hidden mb-6 relative">
                 <img 
-                  src={heroImage} 
+                  src={cargoExpressImage} 
                   alt="Cargo & Express Delivery" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
