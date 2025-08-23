@@ -169,6 +169,17 @@ export default function Home() {
             <h3 className="text-2xl md:text-3xl font-semibold text-foreground">In collaboration with</h3>
           </div>
           <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 gap-4 items-center">
+            <div className="flex items-center justify-center h-24 sm:h-28 overflow-hidden p-2 sm:p-3">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8zQYCgdWMruF8OK5URBkADp1P_c6-GBnrRg&s"
+                alt="DPD logo"
+                className="max-h-20 sm:max-h-24 w-auto max-w-full object-contain"
+                loading="lazy"
+                referrerPolicy="no-referrer"
+                crossOrigin="anonymous"
+                onError={(e) => { (e.currentTarget as HTMLImageElement).src = ssLogo; }}
+              />
+            </div>
             <div className="flex items-center justify-center h-20 sm:h-24 overflow-hidden p-2 sm:p-3">
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKCAHCxWwutWINsktvMA8P3fCCPOKZuHQgWQ&s"
@@ -180,22 +191,11 @@ export default function Home() {
                 onError={(e) => { (e.currentTarget as HTMLImageElement).src = ssLogo; }}
               />
             </div>
-            <div className="flex items-center justify-center h-20 sm:h-24 overflow-hidden p-2 sm:p-3">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8zQYCgdWMruF8OK5URBkADp1P_c6-GBnrRg&s"
-                alt="DPD logo"
-                className="max-h-16 sm:max-h-20 w-auto max-w-full object-contain"
-                loading="lazy"
-                referrerPolicy="no-referrer"
-                crossOrigin="anonymous"
-                onError={(e) => { (e.currentTarget as HTMLImageElement).src = ssLogo; }}
-              />
-            </div>
-            <div className="flex items-center justify-center h-20 sm:h-24 overflow-hidden p-2 sm:p-3">
+            <div className="flex items-center justify-center h-24 sm:h-28 overflow-hidden p-2 sm:p-3">
               <img
                 src={upsLogo}
                 alt="UPS logo"
-                className="max-h-16 sm:max-h-20 w-auto max-w-full object-contain"
+                className="max-h-20 sm:max-h-24 w-auto max-w-full object-contain"
                 loading="lazy"
                 onError={(e) => { (e.currentTarget as HTMLImageElement).src = ssLogo; }}
               />
